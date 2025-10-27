@@ -97,7 +97,7 @@ jobs:
       name: Download Helm Artifacts
       with:
         name: helm-artifacts
-        path: .
+        path: ./helm-charts
 
     - name: Setup Helm
       uses: azure/setup-helm@v4.2.0
